@@ -24,7 +24,6 @@ pymdownx.details = {}
 
 [project.markdown_extensions.pymdownx.snippets]
 base_path = "includes"
-process_jinja = true
 
 [project.markdown_extensions.pymdownx.superfences]
 custom_fences = [
