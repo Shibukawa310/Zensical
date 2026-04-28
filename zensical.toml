@@ -1,0 +1,32 @@
+[project]
+site_name = "DECADE-X Standards"
+site_url = "https://shibukawa310.github.io/zensical/"
+
+[project.theme]
+name = "material"
+palette = [
+  { media = "(prefers-color-scheme: light)", scheme = "default", primary = "indigo", accent = "blue" },
+  { media = "(prefers-color-scheme: dark)", scheme = "slate", primary = "black", accent = "blue" }
+]
+features = [
+    "navigation.tabs",
+    "navigation.sections",
+    "navigation.instant",
+    "search.suggest"
+]
+
+[project.markdown_extensions]
+attr_list = {}
+md_in_html = {}
+abbr = {}
+admonition = {}
+pymdownx.details = {}
+
+[project.markdown_extensions.pymdownx.snippets]
+base_path = "includes"
+process_jinja = true
+
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
