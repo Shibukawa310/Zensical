@@ -1,0 +1,21 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dx:   <https://standards.decade-x.io/vocab/> .
+
+dx:Glossary a skos:ConceptScheme ;
+    skos:prefLabel "DECADE-X Standards Glossary"@en .
+
+dx:API a skos:Concept ;
+    skos:inScheme dx:Glossary ;
+    skos:prefLabel "API"@en ;
+    skos:definition "Interface informatique qui permet à différents logiciels de communiquer entre eux de manière sécurisée et standardisée."@en .
+
+dx:DataSpace a skos:Concept ;
+    skos:inScheme dx:Glossary ;
+    skos:prefLabel "Data Space"@en ;
+    skos:definition "Decentralized ecosystem enabling data sharing between different actors while guaranteeing sovereignty and trust."@en .
+
+dx:V2X a skos:Concept ;
+    skos:inScheme dx:Glossary ;
+    skos:prefLabel "V2X"@en ;
+    skos:definition "Vehicle-to-Everything communication system."@en .
