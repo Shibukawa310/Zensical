@@ -1,26 +1,29 @@
 [project]
 site_name = "DECADE-X Standards"
-site_url = "https://shibukawa310.github.io/zensical/"
+site_url = "https://shibukawa310.github.io/dx_standards/"
 
 [project.theme]
 name = "material"
-palette = [
-  { media = "(prefers-color-scheme: light)", scheme = "default", primary = "indigo", accent = "blue" },
-  { media = "(prefers-color-scheme: dark)", scheme = "slate", primary = "black", accent = "blue" }
-]
+# On retire navigation.tabs pour avoir tout sur le côté
 features = [
-    "navigation.tabs",
     "navigation.sections",
-    "navigation.instant",
-    "search.suggest"
+    "navigation.expand",
+    "search.suggest",
+    "search.highlight"
 ]
+palette = { scheme = "default", primary = "indigo", accent = "blue" }
+
+# Structure du menu sur le côté
+[project.nav]
+"Home" = "index.md"
+"Active Standards" = "active/"
+"Retired Standards" = "retired/"
 
 [project.markdown_extensions]
 attr_list = {}
 md_in_html = {}
 abbr = {}
 admonition = {}
-pymdownx.details = {}
 
 [project.markdown_extensions.pymdownx.snippets]
 base_path = "includes"
