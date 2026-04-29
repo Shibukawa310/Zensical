@@ -11,6 +11,13 @@ features = [
     "search.suggest",
     "search.highlight"
 ]
+
+[project.nav]
+"Home" = "index.md"
+"Active" = "active/"   # <--- Tout fichier dans docs/active/ apparaîtra ici
+"Retired" = "retired/" # <--- Tout fichier dans docs/retired/ apparaîtra ici
+"Tags Index" = "tags.md"
+
 palette = { scheme = "default", primary = "indigo", accent = "blue" }
 
 [project.markdown_extensions]
