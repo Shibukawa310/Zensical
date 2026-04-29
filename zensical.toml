@@ -14,9 +14,16 @@ features = [
 
 [project.nav]
 "Home" = "index.md"
-"Active" = "active/"   # <--- Tout fichier dans docs/active/ apparaîtra ici
-"Retired" = "retired/" # <--- Tout fichier dans docs/retired/ apparaîtra ici
-"Tags Index" = "tags.md"
+
+"Active Standards" = [
+    { "AX-001 : Cereals & Pulses" = "active/AX-001.md" },
+    { "AX-002 : Second Standard" = "active/AX-002.md" },
+    { "AX-003 : Third Standard" = "active/AX-003.md" }
+]
+
+"Retired Standards" = [
+    { "Archives Index" = "retired/index.md" }
+]
 
 palette = { scheme = "default", primary = "indigo", accent = "blue" }
 
