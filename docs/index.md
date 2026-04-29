@@ -4,7 +4,7 @@ hide:
 ---
 
 <div style="text-align: center; padding: 40px 0;">
-    <img src="https://raw.githubusercontent.com/shibukawa310/dx_standards/main/docs/assets/logo.png" width="250" style="margin-bottom: 20px;">
+    <img src="https://github.com/Shibukawa310/Zensical/blob/main/docs/logo.png" width="250" style="margin-bottom: 20px;">
     
 
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 50px;">
