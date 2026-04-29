@@ -2,30 +2,27 @@
 site_name = "DECADE-X Standards"
 site_url = "https://shibukawa310.github.io/dx_standards/"
 
+# La liste stricte pour forcer l'affichage du menu à gauche
+nav = [
+    { "Home" = "index.md" },
+    { "Active Standards" = [
+        { "DX-0001 Pattern" = "active/AX-001.md" },
+        { "DX-0002 Standard" = "active/AX-002.md" },
+        { "DX-0003 Standard" = "active/AX-003.md" }
+    ]},
+    { "Retired Standards" = [
+        { "Archives" = "retired/index.md" }
+    ]}
+]
+
 [project.theme]
 name = "material"
-# On retire navigation.tabs pour avoir tout sur le côté
+# On s'assure qu'il n'y a PAS "navigation.tabs" ici
 features = [
     "navigation.sections",
-    "navigation.expand",
     "search.suggest",
     "search.highlight"
 ]
-
-[project.nav]
-"Home" = "index.md"
-
-"Active Standards" = [
-    { "AX-001 : Cereals & Pulses" = "active/AX-001.md" },
-    { "AX-002 : Second Standard" = "active/AX-002.md" },
-    { "AX-003 : Third Standard" = "active/AX-003.md" }
-]
-
-"Retired Standards" = [
-    { "Archives Index" = "retired/index.md" }
-]
-
-palette = { scheme = "default", primary = "indigo", accent = "blue" }
 
 [project.markdown_extensions]
 attr_list = {}
@@ -40,6 +37,3 @@ base_path = "includes"
 custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
 ]
-
-[project.plugins.tags]
-tags_file = "tags.md"
