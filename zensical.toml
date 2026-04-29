@@ -19,7 +19,6 @@ nav = [
 name = "material"
 # On s'assure qu'il n'y a PAS "navigation.tabs" ici
 features = [
-    "navigation.sections",
     "search.suggest",
     "search.highlight"
 ]
