@@ -13,13 +13,6 @@ features = [
 ]
 palette = { scheme = "default", primary = "indigo", accent = "blue" }
 
-# Structure du menu sur le côté
-[project.nav]
-"Home" = "index.md"
-"Active Standards" = "active/"   # Zensical listera tout ce qu'il y a dedans
-"Retired Standards" = "retired/" 
-"Tags Index" = "tags.md"
-
 [project.markdown_extensions]
 attr_list = {}
 md_in_html = {}
