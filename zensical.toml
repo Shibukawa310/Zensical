@@ -32,3 +32,6 @@ base_path = "includes"
 custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
 ]
+
+[project.plugins.tags]
+tags_file = "tags.md"
