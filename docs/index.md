@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <div style="text-align: center; padding: 40px 0;">
     <img src="https://raw.githubusercontent.com/shibukawa310/dx_standards/main/docs/assets/logo.png" width="250" style="margin-bottom: 20px;">
     
