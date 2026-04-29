@@ -7,16 +7,17 @@ hide:
     <img src="https://raw.githubusercontent.com/shibukawa310/dx_standards/main/docs/assets/logo.png" width="250" style="margin-bottom: 20px;">
     
     <div style="max-width: 600px; margin: 0 auto 30px auto; position: relative;">
-        <input type="text" placeholder="Search Engine..." style="width: 100%; padding: 15px 25px; border-radius: 30px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.05); font-size: 1.1em; outline: none;" onfocus="document.querySelector('.md-search__input').focus()">
+        <input type="text" placeholder="Rechercher un standard, un terme..." 
+               onclick="document.getElementById('__search').checked = true; setTimeout(() => document.querySelector('.md-search__input').focus(), 100);" 
+               style="width: 100%; padding: 15px 25px; border-radius: 30px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.05); font-size: 1.1em; outline: none; cursor: pointer;">
     </div>
 
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 50px;">
-        <span style="border: 2px solid #E91E63; padding: 5px 15px; border-radius: 10px; color: #E91E63; font-weight: bold;">#API</span>
-        <span style="border: 2px solid #FF5722; padding: 5px 15px; border-radius: 10px; color: #FF5722; font-weight: bold;">#Security</span>
-        <span style="border: 2px solid #2196F3; padding: 5px 15px; border-radius: 10px; color: #2196F3; font-weight: bold;">#Data</span>
-        <span style="border: 2px solid #9C27B0; padding: 5px 15px; border-radius: 10px; color: #9C27B0; font-weight: bold;">#Quality</span>
-        <span style="border: 2px solid #4CAF50; padding: 5px 15px; border-radius: 10px; color: #4CAF50; font-weight: bold;">#Business</span>
-        <span style="border: 2px solid #673AB7; padding: 5px 15px; border-radius: 10px; color: #673AB7; font-weight: bold;">#Semantic</span>
+        <a href="tags/#api" style="border: 2px solid #E91E63; padding: 5px 15px; border-radius: 10px; color: #E91E63; font-weight: bold; text-decoration: none;">#API</a>
+        <a href="tags/#security" style="border: 2px solid #FF5722; padding: 5px 15px; border-radius: 10px; color: #FF5722; font-weight: bold; text-decoration: none;">#Security</a>
+        <a href="tags/#dataspace" style="border: 2px solid #2196F3; padding: 5px 15px; border-radius: 10px; color: #2196F3; font-weight: bold; text-decoration: none;">#DataSpace</a>
+        <a href="tags/#quality" style="border: 2px solid #9C27B0; padding: 5px 15px; border-radius: 10px; color: #9C27B0; font-weight: bold; text-decoration: none;">#Quality</a>
+        <a href="tags/#business" style="border: 2px solid #4CAF50; padding: 5px 15px; border-radius: 10px; color: #4CAF50; font-weight: bold; text-decoration: none;">#Business</a>
     </div>
 
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; text-align: left; max-width: 900px; margin: 0 auto; color: #666;">
