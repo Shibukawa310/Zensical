@@ -6,11 +6,6 @@ hide:
 <div style="text-align: center; padding: 40px 0;">
     <img src="https://raw.githubusercontent.com/shibukawa310/dx_standards/main/docs/assets/logo.png" width="250" style="margin-bottom: 20px;">
     
-    <div style="max-width: 600px; margin: 0 auto 30px auto; position: relative;">
-        <input type="text" placeholder="Rechercher un standard, un terme..." 
-               onclick="document.getElementById('__search').checked = true; setTimeout(() => document.querySelector('.md-search__input').focus(), 100);" 
-               style="width: 100%; padding: 15px 25px; border-radius: 30px; border: 1px solid #ddd; box-shadow: 0 4px 6px rgba(0,0,0,0.05); font-size: 1.1em; outline: none; cursor: pointer;">
-    </div>
 
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 50px;">
         <a href="tags/#api" style="border: 2px solid #E91E63; padding: 5px 15px; border-radius: 10px; color: #E91E63; font-weight: bold; text-decoration: none;">#API</a>
