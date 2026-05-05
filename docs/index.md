@@ -7,11 +7,13 @@ hide:
     <img src="assets/logo.png" width="250" style="margin-bottom: 20px;">
     
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 50px;">
-    <a href="tags/#api" style="background: #FFF9C4; border: 1px solid #FBC02D; padding: 5px 15px; border-radius: 5px; color: #827717; font-weight: bold; text-decoration: none;">#API</a>
     
-    <a href="tags/#security" style="background: #FFEBEE; border: 1px solid #EF5350; padding: 5px 15px; border-radius: 5px; color: #C62828; font-weight: bold; text-decoration: none;">#Security</a>
+    <a href="?q=tag:API" style="background: #FFF9C4; border: 1px solid #FBC02D; padding: 5px 15px; border-radius: 5px; color: #827717; font-weight: bold; text-decoration: none;">#API</a>
     
-    <a href="tags/#dataspace" style="background: #E3F2FD; border: 1px solid #42A5F5; padding: 5px 15px; border-radius: 5px; color: #1565C0; font-weight: bold; text-decoration: none;">#DataSpace</a>
+    <a href="?q=tag:Security" style="background: #FFEBEE; border: 1px solid #EF5350; padding: 5px 15px; border-radius: 5px; color: #C62828; font-weight: bold; text-decoration: none;">#Security</a>
+    
+    <a href="?q=tag:DataSpace" style="background: #E3F2FD; border: 1px solid #42A5F5; padding: 5px 15px; border-radius: 5px; color: #1565C0; font-weight: bold; text-decoration: none;">#DataSpace</a>
+
 </div>
     
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; text-align: left; max-width: 900px; margin: 0 auto; color: #666;">
