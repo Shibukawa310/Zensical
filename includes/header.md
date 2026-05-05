@@ -2,9 +2,9 @@
   <span><strong>ID:</strong> {{ page.meta.ID }}</span>
   <span><strong>Version:</strong> {{ page.meta.Version }}</span>
   <span><strong>Status:</strong> 
-    <span class="status-tag status-{{ page.meta.Status | lower }}" style="padding: 2px 8px; border-radius: 4px; font-weight: bold; color: white; text-transform: uppercase; font-size: 0.85em;">
+    <span style="padding: 2px 8px; border-radius: 4px; font-weight: bold; color: white; text-transform: uppercase; font-size: 0.85em; background: #4CAF50;">
       {{ page.meta.Status }}
     </span>
   </span>
-  <span><strong>Maj:</strong> {{ page.meta['Last Updated'] }}</span>
+  <span><strong>Updated:</strong> {{ page.meta['Last Updated'] }}</span>
 </div>
