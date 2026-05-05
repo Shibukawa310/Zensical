@@ -2,7 +2,6 @@
 site_name = "DECADE-X Standards"
 site_url = "https://shibukawa310.github.io/dx_standards/"
 
-# La liste stricte pour forcer l'affichage du menu à gauche
 nav = [
     { "Home" = "index.md" },
     { "Active Standards" = [
@@ -17,7 +16,6 @@ nav = [
 
 [project.theme]
 name = "material"
-# On s'assure qu'il n'y a PAS "navigation.tabs" ici
 features = [
     "search.suggest",
     "search.highlight"
@@ -37,3 +35,6 @@ check_paths = true
 custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
 ]
+
+[project.plugins.tags]
+tags_file = "tags.md"
