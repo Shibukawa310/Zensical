@@ -8,7 +8,7 @@ dx:Glossary a skos:ConceptScheme ;
 dx:API a skos:Concept ;
     skos:inScheme dx:Glossary ;
     skos:prefLabel "API"@en ;
-    skos:definition "Interface informatique qui permet à différents logiciels de communiquer entre eux de manière sécurisée et standardisée."@en .
+    skos:definition "A computer interface that allows different software programs to communicate with each other in a secure and standardized way."@en .
 
 dx:DataSpace a skos:Concept ;
     skos:inScheme dx:Glossary ;
