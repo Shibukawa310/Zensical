@@ -4,7 +4,7 @@ hide:
 ---
 
 <div style="text-align: center; padding: 40px 0;">
-    <img src="https://github.com/Shibukawa310/Zensical/main/docs/logo.png" width="250" style="margin-bottom: 20px;">
+    <img src="assets/logo.png" width="250" style="margin-bottom: 20px;">
     
 
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 50px;">
