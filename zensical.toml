@@ -8,6 +8,7 @@ nav = [
         { "DX-0001 Pattern" = "active/AX-001.md" },
         { "DX-0002 Standard" = "active/AX-002.md" },
         { "DX-0003 Standard" = "active/AX-003.md" }
+        { "Semantic Interoperability Standard" = "active/H4-semantic_interoperability.mdx" }
     ]},
     { "Retired Standards" = [
         { "Archives" = "retired/index.md" }
